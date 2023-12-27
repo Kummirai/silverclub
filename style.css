@@ -211,3 +211,45 @@ article .whoAreWe{
   grid-column: 8 / 10;
   grid-row: 6 / 10;
 }
+
+/* Style second section */
+.second-section{
+  min-height: fit-content;
+  display: flex;
+  padding: 40px;
+}
+
+.second-section-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+}
+.second-section img{
+  width: 600px;
+}
+
+.second-section-content p{
+  text-align: justify;
+}
+
+/* Style third section */
+.third-section{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-left: 40px;
+}
+
+.third-section h2{
+  font-size: 2rem;
+}
+.third-section button{
+  padding: 16px 60px;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  background-color: white;
+}
