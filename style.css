@@ -127,10 +127,11 @@ article .whoAreWe{
 
 /* style first section */
 .first-section{
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(242, 242, 242);
 }
 
 .first-section .our-activities{
@@ -153,8 +154,22 @@ article .whoAreWe{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: burlywood;
+  justify-content: space-evenly;
+  background-color: white;
   padding: 10px;
+}
+
+.our-activities-content div>h2{
+  padding: 20px;
+}
+
+.our-activities-content div>img{
+  padding: 20px;
+}
+
+.our-activities-content div>p{
+  padding: 0 10px 20px 10px;
+  text-align: justify;
 }
 
 .our-activities-content .hiking{
