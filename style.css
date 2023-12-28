@@ -253,3 +253,72 @@ article .whoAreWe{
   font-size: 1.2rem;
   background-color: white;
 }
+/* style fourth section */
+.fourth-section{
+  min-height: 60vh;
+  background-color: rgb(242, 242, 242);
+}
+
+.studies-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.studies-heading h2{
+  position: relative;
+  top: 60px;
+  font-size: 2.6rem;
+}
+
+.studyLessons{
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 40px;
+}
+
+.studyLessons div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid rgb(255, 201, 1);
+  border-radius: 5px;
+}
+
+.studyLessons h2{
+  padding: 20px;
+  font-size: 1.2rem;
+  align-self: center;
+
+}
+
+.studyLessons ul{
+  padding: 20px;
+}
+.studyLessons li{
+  list-style-type: square;
+  padding: 5px;
+}
+
+.list1{
+  grid-column: 2 / 6;
+  grid-row: 2 / 6;
+}
+
+.list3{
+  grid-column: 6 / 10;
+  grid-row: 2 / 6;
+}
+
+.list5{
+  grid-column: 2 / 6;
+  grid-row: 6 / 10;
+}
+
+.list7{
+  grid-column: 6 / 10;
+  grid-row: 6 / 10;
+}
