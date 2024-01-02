@@ -125,6 +125,18 @@ article .whoAreWe{
   border-radius: 5px;
 }
 
+.whoAreWe a{
+  text-decoration: none;
+  color: white;
+}
+.whoAreWe p{
+  width: 70%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 30px;
+  font-weight: 100;
+}
+
 /* style first section */
 .first-section{
   min-height: 100vh;
@@ -148,15 +160,17 @@ article .whoAreWe{
   grid-template-rows: repeat(10, 1fr);
   grid-template-columns: repeat(10, 1fr);
   grid-gap: 20px;
+  align-items: flex-start;
 }
 
 .our-activities-content div{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   background-color: white;
   padding: 10px;
+  min-height: 80vh;
 }
 
 .our-activities-content div>h2{
@@ -170,6 +184,7 @@ article .whoAreWe{
 .our-activities-content div>p{
   padding: 0 10px 20px 10px;
   text-align: justify;
+  line-height: 20px;
 }
 
 .our-activities-content .hiking{
@@ -232,6 +247,7 @@ article .whoAreWe{
 
 .second-section-content p{
   text-align: justify;
+  line-height: 25px;
 }
 
 /* Style third section */
@@ -242,6 +258,7 @@ article .whoAreWe{
   align-items: flex-start;
   justify-content: space-evenly;
   padding-left: 40px;
+  background-color: rgb(255, 201, 1);
 }
 
 .third-section h2{
@@ -249,9 +266,15 @@ article .whoAreWe{
 }
 .third-section button{
   padding: 16px 60px;
-  border: 1px solid black;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   background-color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.third-section p{
+  font-size: 1.4rem;
+  font-weight: 300;
 }
 /* style fourth section */
 .fourth-section{
