@@ -509,7 +509,30 @@ article .whoAreWe{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  whoAreWe h2 {
+    font-size: 2rem;
+  }
+
+  .whoAreWe p {
+    width: 90%;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 100;
+  }
+
+  .whoAreWe a {
+    padding: 10px 40px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
 }
+
+
   .first-section{
     display: flex;
     flex-direction: column;
