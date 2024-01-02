@@ -511,7 +511,7 @@ article .whoAreWe{
     justify-content: space-evenly;
   }
 
-  whoAreWe h2 {
+  .whoAreWe h2 {
     font-size: 1.6rem;
   }
 
