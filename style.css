@@ -499,6 +499,11 @@ article .whoAreWe{
     font-size: 2rem;
     margin-bottom: 16px;
   }
+
+  .main-article p{
+    width: 92%;
+    font-weight: 200;
+  }
   /* style article */
   article{
     height: 60vh;
