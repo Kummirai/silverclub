@@ -499,6 +499,9 @@ article .whoAreWe{
     margin-bottom: 16px;
   }
 
+  article{
+    height: 60vh;
+  }
   .first-section{
     display: flex;
     flex-direction: column;
