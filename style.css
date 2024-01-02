@@ -529,7 +529,7 @@ article .whoAreWe{
     font-weight: 100;
   }
 
-  .whoAreWe a {
+  .whoAreWe a, .third-section a, .upper-footer a{
     padding: 10px 40px;
     font-size: 18px;
     background-color: black;
