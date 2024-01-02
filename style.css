@@ -360,6 +360,22 @@ article .whoAreWe{
   grid-column: 6 / 10;
   grid-row: 6 / 10;
 }
+/* Style fifth section */
+
+.fifth-section{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(51, 51, 51);
+  color: white;
+}
+
+.fifth-section h2{
+  font-size: 2.8rem;
+  padding: 60px;
+}
 /* Style footer */
 .upper-footer{
   display: flex;
