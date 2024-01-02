@@ -498,10 +498,18 @@ article .whoAreWe{
   .main-article h2{
     margin-bottom: 16px;
   }
-
+  /* style article */
   article{
     height: 60vh;
   }
+
+  article .whoAreWe {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
   .first-section{
     display: flex;
     flex-direction: column;
