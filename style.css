@@ -529,6 +529,7 @@ article .whoAreWe{
     width: 90%;
   }
 
+  /* style second section */
   .second-section{
     display: flex;
     flex-direction: column;
@@ -536,7 +537,9 @@ article .whoAreWe{
     justify-content: space-evenly;
     padding: 0;
   }
-
+  .second-section img{
+    width: 100%;
+  }
   .second-section-content{
     display: flex;
     flex-direction: column;
