@@ -564,6 +564,9 @@ article .whoAreWe{
     justify-content: space-around;
   }
 
+  .our-activities h2{
+    font-size: 2rem;
+  }
   .our-activities-content p{
     width: 90%;
   }
