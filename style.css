@@ -453,9 +453,6 @@ article .whoAreWe{
     align-items: center;
   }
 
-  h2{
-    font-size: 2rem;
-  }
   /* Style header */
   header{
     display: flex;
