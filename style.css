@@ -587,6 +587,10 @@ article .whoAreWe{
     justify-content: space-evenly;
     height: 60vh;
   }
+
+  .second-section-content p{
+    text-align: center;
+  }
   .third-section {
     display: flex;
     flex-direction: column;
