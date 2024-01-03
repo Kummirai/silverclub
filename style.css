@@ -344,6 +344,10 @@ article .whoAreWe{
   padding: 5px;
 }
 
+.heading{
+  grid-column: 2 / 10;
+  grid-row: 1 / 2;
+}
 .list1{
   grid-column: 2 / 6;
   grid-row: 2 / 6;
